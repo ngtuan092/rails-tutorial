@@ -34,7 +34,10 @@ gem "jbuilder"
 # gem "kredis"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html]
-# gem "bcrypt", "~> 3.1.7"
+gem "bcrypt", "~> 3.1.7"
+
+# use boostrap
+gem "bootstrap-sass", "~> 3.4.1"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i(mingw mswin x64_mingw jruby)
@@ -43,8 +46,12 @@ gem "tzinfo-data", platforms: %i(mingw mswin x64_mingw jruby)
 gem "bootsnap", require: false
 
 # Use Sass to process CSS
-# gem "sassc-rails"
+gem "sassc-rails"
 
+# use config and i18n
+gem "config"
+
+gem "rails-i18n"
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html]
 # gem "image_processing", "~> 1.2"
 
