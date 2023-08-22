@@ -1,0 +1,19 @@
+vi:
+  enl: "Tiếng Anh"
+  vnl: "Tiếng Việt"
+  base_title: "Hướng dẫn Ruby on Rails"
+  app_name: "Ứng dụng"
+  home: 
+    title: "Trang chủ"
+    description: Đây là trang chủ của ứng dụng %{href}.
+  help:
+    title: "Hỗ trợ"
+    description: Hỗ trợ ứng dụng tại %{href}.
+    book_intro: Để được hỗ trợ ứng dụng này, xem <em>%{href}</em>.
+    help_page: "Trang hỗ trợ"
+    book: "Rails Tutorial"
+  contact:
+    title: "Liên hệ"
+    description: Liên hệ với tác giả tại %{href}.
+    contact_page: "Trang liên hệ"
+  rails_tutorial: "Hướng dẫn Ruby on Rails"
