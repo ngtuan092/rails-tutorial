@@ -17,3 +17,11 @@ vi:
     description: Liên hệ với tác giả tại %{href}.
     contact_page: "Trang liên hệ"
   rails_tutorial: "Hướng dẫn Ruby on Rails"
+  user_not_found: "Người dùng không tồn tại"
+  sign_up: "Đăng ký"
+  create_my_account: "Tạo tài khoản"
+  name: "Tên"
+  password: "Mật khẩu"
+  confirmation: "Xác nhận mật khẩu"
+  the_form_contains: "Biểu mẫu chứa"
+  user_create_successfully: "Tạo tài khoản thành công"
