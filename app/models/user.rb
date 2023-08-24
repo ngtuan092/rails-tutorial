@@ -9,7 +9,7 @@ class User < ApplicationRecord
   length: {maximum: Settings.validate.name.length.max}
 
   has_secure_password
-  validates :password, presence: true,
+  validates :password, presence: true, allow_nil: true,
   length: {minimum: Settings.validate.password.length.min}
 
   attr_accessor :remember_token

@@ -2,6 +2,7 @@ link:
   railshome: "http://www.rubyonrails.org"
   railsbook: "http://www.railstutorial.org/book"
   contact: "https://www.railstutorial.org/contact"
+  gravatar: "http://gravatar.com/emails"
 
 validate:
   name: 
@@ -14,3 +15,10 @@ validate:
   password:
     length:
       min: 6
+
+size:
+  gravatar: 80
+
+pagy:
+  user:
+    items: 10
