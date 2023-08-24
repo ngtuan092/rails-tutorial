@@ -1,17 +1,20 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
-    <%= link_to t("app_name"), "home", id: "logo" %>
+    <%= link_to t("app_name"), static_pages_home_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to t("home.title"),   static_pages_home_path %></li>
         <li><%= link_to t("help.title"),   static_pages_help_path %></li>
         <li><%= link_to t("contact.title"), static_pages_contact_path %></li>
-        <li class="nav-item">
-          <%= link_to (t"enl"), locale:"en" %>
-        </li>
-        <li class="nav-item">
-          <%= link_to (t"vnl"), locale:"vi" %>
-        </li>
+        <% if I18n.locale == :en %>
+          <li class="nav-item">
+            <%= link_to (t"enl"), locale:"vi" %>
+          </li>
+        <% else %>
+          <li class="nav-item">
+            <%= link_to (t"vnl"), locale:"en" %>
+          </li>
+        <% end %>
       </ul>
     </nav>
   </div>

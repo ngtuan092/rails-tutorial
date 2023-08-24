@@ -48,3 +48,11 @@ en:
     description: Contact the Ruby on Rails Tutorial about the sample app at the %{href}.
     contact_page: "Contact page"
   rails_tutorial: "Ruby on Rails Tutorial"
+  user_not_found: "User not found"
+  sign_up: "Sign up"
+  create_my_account: "Create my account"
+  name: "Name"
+  password: "Password"
+  confirmation: "Confirm Password"
+  the_form_contains: "The form contains"
+  user_create_successfully: "User created successfully"
