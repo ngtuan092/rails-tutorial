@@ -8,16 +8,16 @@
         <li><%= link_to t("contact.title"), static_pages_contact_path %></li>
         <% if I18n.locale == :en %>
           <li class="nav-item">
-            <%= link_to (t"enl"), locale:"vi" %>
+            <%= link_to (t"vnl"), locale:"vi" %>
           </li>
         <% else %>
           <li class="nav-item">
-            <%= link_to (t"vnl"), locale:"en" %>
+            <%= link_to (t"enl"), locale:"en" %>
           </li>
         <% end %>
         <% if logged_in? %>
           <li class="nav-item">
-            <%= link_to t("users"), "#" %>
+            <%= link_to t("users"), users_path %>
           </li>
           <li class="dropdown" id="account">
             <%= link_to("#") do %>
@@ -30,7 +30,7 @@
               <%= link_to t("profile"), current_user %>
             </li>
             <li>
-              <%= link_to t("settings"), "#" %>
+              <%= link_to t("settings"), edit_user_path(current_user) %>
             </li>
             <li class="divider"></li>
             <li>
