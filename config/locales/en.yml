@@ -85,3 +85,7 @@ en:
   new_micropost: "Compose new micropost..."
   post: "Post"
   view_my_profile: "View my profile"
+  following: "Following"
+  followers: "Followers"
+  follow: "Follow"
+  unfollow: "Unfollow"

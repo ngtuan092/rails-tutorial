@@ -11,6 +11,7 @@ class Micropost < ApplicationRecord
                            message: I18n.t("microposts_image_size")}
 
   scope :newest, ->{order created_at: :desc}
+  scope :related_posts, ->(user_ids){where user_id: user_ids}
 
   delegate :name, to: :user, prefix: true
 
