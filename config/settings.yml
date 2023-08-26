@@ -22,3 +22,5 @@ size:
 pagy:
   user:
     items: 10
+
+expired_time: 2
