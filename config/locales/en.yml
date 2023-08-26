@@ -6,6 +6,7 @@ en:
   home: 
     title: "Home"
     description: This is the home page for the %{href} sample application.
+    feed: "My feed"
   help:
     title: "Help"
     description: Get help on the Ruby on Rails Tutorial at the %{href}.
@@ -71,3 +72,16 @@ en:
   password_reset_success: "Password has been reset."
   password_reset_fail: "Password has not been reset."
   password_reset_expired: "Password reset has expired."
+  posted: "Posted"
+  micropost: "Micropost"
+  microposts: "Microposts"
+  ago: "ago"
+  micropost_created: "Micropost created"
+  micropost_invalid: "Micropost invalid"
+  micropost_deleted: "Micropost deleted"
+  micropost_not_deleted: "Micropost not deleted"
+  microposts_image_size: "Micropost image size should be less than 5 MB"
+  microposts_image_type: "Micropost image type should be jpeg, gif or png"
+  new_micropost: "Compose new micropost..."
+  post: "Post"
+  view_my_profile: "View my profile"
