@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   resources :users, only: %i(show edit update index destroy)
 
   resources :account_activations, only: %i(edit)
+
+  resources :password_resets, only: %i(new create edit update)
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")

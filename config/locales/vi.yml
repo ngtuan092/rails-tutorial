@@ -52,7 +52,22 @@ vi:
   activate: "Kích hoạt"
   hi: "Xin chào"
   welcome: "Chào mừng bạn đến với ứng dụng! Nhấp vào liên kết bên dưới để kích hoạt tài khoản:"
+  forgot_password: "Quên mật khẩu"
+  submit: "Gửi"
   mailers:
     user_mailer:
       account_activation:
         subject: "Kích hoạt tài khoản"
+      password_reset:
+        subject: "Đặt lại mật khẩu"
+  password_reset: "Đặt lại mật khẩu"
+  email_not_found: "Email không tồn tại"
+  email_sent: "Email đã được gửi với hướng dẫn đặt lại mật khẩu"
+  to_reset: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+  till_expire: "Liên kết này sẽ hết hạn trong hai giờ."
+  please_ignore: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+  update_password: "Cập nhật mật khẩu"
+  cant_be_empty: "không được để trống"
+  password_reset_success: "Mật khẩu đã được đặt lại."
+  password_reset_fail: "Mật khẩu chưa được đặt lại."
+  password_reset_expired: "Liên kết đặt lại mật khẩu đã hết hạn."
