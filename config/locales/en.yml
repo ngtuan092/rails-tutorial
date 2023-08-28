@@ -45,3 +45,14 @@ en:
   user_not_deleted: "User not deleted"
   confirm: "Are you sure?"
   delete: "Delete"
+  check_your_email: "Please check your email to activate your account."
+  account_activated: "Account activated!"
+  invalid_activation_link: "Invalid activation link"
+  account_not_activated: "Account not activated"
+  activate: "Activate"
+  hi: "Hi"
+  welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+  mailers:
+    user_mailer:
+      account_activation:
+        subject: "Account activation"

@@ -56,6 +56,8 @@ gem "rails-i18n"
 # pagination
 gem "pagy"
 
+# env management
+gem "figaro"
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html]
 # gem "image_processing", "~> 1.2"
 

@@ -45,3 +45,14 @@ vi:
   user_not_deleted: "Xóa người dùng không thành công"
   confirm: "Bạn có chắc không?"
   delete: "Xóa"
+  check_your_email: "Vui lòng kiểm tra email để kích hoạt tài khoản."
+  account_activated: "Kích hoạt tài khoản thành công!"
+  invalid_activation_link: "Liên kết kích hoạt không hợp lệ"
+  account_not_activated: "Tài khoản chưa được kích hoạt"
+  activate: "Kích hoạt"
+  hi: "Xin chào"
+  welcome: "Chào mừng bạn đến với ứng dụng! Nhấp vào liên kết bên dưới để kích hoạt tài khoản:"
+  mailers:
+    user_mailer:
+      account_activation:
+        subject: "Kích hoạt tài khoản"
