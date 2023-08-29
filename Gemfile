@@ -51,6 +51,7 @@ gem "sassc-rails"
 # use config and i18n
 gem "config"
 
+gem "i18n-js"
 gem "rails-i18n"
 
 # pagination
@@ -59,7 +60,9 @@ gem "pagy"
 # env management
 gem "figaro"
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html]
-# gem "image_processing", "~> 1.2"
+gem "active_storage_validations"
+gem "image_processing"
+gem "mini_magick"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html

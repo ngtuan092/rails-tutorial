@@ -6,6 +6,7 @@ vi:
   home: 
     title: "Trang chủ"
     description: Đây là trang chủ của ứng dụng %{href}.
+    feed: "Bài viết của tôi"
   help:
     title: "Hỗ trợ"
     description: Hỗ trợ ứng dụng tại %{href}.
@@ -71,3 +72,16 @@ vi:
   password_reset_success: "Mật khẩu đã được đặt lại."
   password_reset_fail: "Mật khẩu chưa được đặt lại."
   password_reset_expired: "Liên kết đặt lại mật khẩu đã hết hạn."
+  microposts: "Bài viết"
+  micropost: "Bài viết"
+  posted: "Đăng"
+  ago: "trước"
+  micropost_created: "Đăng bài viết thành công"
+  micropost_invalid: "Bài viết không hợp lệ"
+  micropost_deleted: "Xóa bài viết thành công"
+  micropost_not_deleted: "Xóa bài viết không thành công"
+  microposts_image_size: "Kích thước ảnh bài viết phải nhỏ hơn 5 MB"
+  microposts_image_type: "Loại ảnh bài viết phải là jpeg, gif hoặc png"
+  new_micropost: "Bài viết mới"
+  post: "Đăng"
+  view_my_profile: "Xem hồ sơ của tôi"

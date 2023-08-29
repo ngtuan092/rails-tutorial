@@ -2,16 +2,19 @@ class User < ApplicationRecord
   before_save :downcase_email
   before_create :create_activation_digest
 
+  has_many :microposts, dependent: :destroy
+
   validates :email, presence: true, uniqueness: true,
-  length: {maximum: Settings.validate.email.length.max},
-  format: {with: Regexp.new(Settings.validate.email.regex)}
+    length: {maximum: Settings.validate.email.length.max},
+    format: {with: Regexp.new(Settings.validate.email.regex)}
 
   validates :name, presence: true,
-  length: {maximum: Settings.validate.name.length.max}
+    length: {maximum: Settings.validate.name.length.max}
+
+  validates :password, presence: true, allow_nil: true,
+    length: {minimum: Settings.validate.password.length.min}
 
   has_secure_password
-  validates :password, presence: true, allow_nil: true,
-  length: {minimum: Settings.validate.password.length.min}
 
   attr_accessor :remember_token, :activation_token, :reset_token
 
@@ -68,6 +71,10 @@ class User < ApplicationRecord
 
   def send_activation_email
     UserMailer.account_activation(self).deliver_now
+  end
+
+  def feed
+    microposts
   end
 
   private

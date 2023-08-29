@@ -15,12 +15,21 @@ validate:
   password:
     length:
       min: 6
+  content:
+    length:
+      max: 140
+  im:
+    type: <%= %w(image/jpeg image/gif image/png) %>
+    size: 50
 
 size:
   gravatar: 80
+  micropost: 50
 
 pagy:
   user:
+    items: 10
+  micropost:
     items: 10
 
 expired_time: 2
