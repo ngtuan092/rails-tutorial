@@ -85,3 +85,7 @@ vi:
   new_micropost: "Bài viết mới"
   post: "Đăng"
   view_my_profile: "Xem hồ sơ của tôi"
+  following: "Đang theo dõi"
+  followers: "Người theo dõi"
+  follow: "Theo dõi"
+  unfollow: "Bỏ theo dõi"
